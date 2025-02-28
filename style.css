@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(25,25,25);
+    color: white;
+    font-family: arial;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+}
+button img{
+    height: 15vh;
+}
+.rounded, img{
+    border-radius: 9.5vh;
+    cursor: pointer;
+}
+.reset-btn{
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#js-moves{
+    font-size: 2rem;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+}
